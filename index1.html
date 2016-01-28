@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="">
+    <style type="text/css">
+    .dialog {
+        width: 80%;
+        height: 155px;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        margin: 0 auto;
+        z-index: 10000;
+        -webkit-transform: translate(-50%, -50%);
+        border-radius: 8px;
+        background-color: #ffffff;
+    }
+    
+    .dialog_footer,
+    .dialog_footer_onebutton {
+        overflow: hidden;
+        border-top: 1px solid #999999;
+    }
+    
+    .dialog_footer a,
+    .dialog_footer_onebutton a {
+        text-decoration: none;
+        color: #333333;
+        display: block;
+        float: left;
+        height: 43px;
+        text-align: center;
+        font-size: 1.75rem;
+        box-sizing: border-box;
+        line-height: 43px;
+    }
+    
+    .dialog_footer a:last-child {
+        color: #333333;
+        width: 100%;
+        text-align: center;
+        height: 44px;
+        line-height: 44px;
+    }
+    
+    .dialog_content {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #333333;
+    }
+    
+    .bgdiv {
+        z-index: 1000000;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: block;
+        background-color: rgba(102, 102, 102, .6);
+    }
+    
+    .dialog_content_span {
+        color: #ffa200;
+    }
+    
+    .scheme_one {
+        height: 110px;
+    }
+    
+    .dialog_content {
+        padding: 15px 5% 5px 5%;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #333333;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="bgdiv">
+        <div class="dialog">
+            <div class="scheme_one">
+                <div class="dialog_content">尊敬的大额客户，感谢您对果仁宝支持 请联系果仁宝客服<span class="dialog_content_span">400-184-9696</span></br>进行认购</div>
+            </div>
+            <div class="dialog_footer"><a href="javascript:void(0);" id="customservice">好的</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

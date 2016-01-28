@@ -1,0 +1,378 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    background: #efeff3;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main form {
+    width: 100%;
+    height: 90px;
+    background: white;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-top: 23px;
+}
+
+.main form div {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    display: block;
+}
+
+.identifyingCode {
+    width: 55%;
+}
+
+.main form div input {
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    padding-left: 44px;
+    width: 56%;
+    display: inline;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main_tel {
+    display: -webkit-box;
+    padding-left: 5%;
+}
+
+.main_tel label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #181818;
+    font-weight: 600;
+}
+
+.main_yanzheng {
+    width: 95%;
+    border-top: 1px solid #eee;
+    display: block;
+    box-sizing: border-box;
+    margin-left: 5%;
+}
+
+.main_yanzheng_zi {
+    width: 75%;
+    font-size: 16px;
+    color: #181818;
+    font-weight: 600;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #eee;
+}
+
+.main_yanzheng_get_btn {
+    width: 25%;
+    font-size: 12px;
+    /* color: #ffa200; */
+    color: #cccccc;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main_yanzheng .sending {
+    color: #8fc31f;
+}
+
+.main_yanzheng_num {
+    width: 40%;
+}
+
+.main_yanzheng_num input {
+    width: 70%;
+}
+
+.main_yanzheng_time {
+    width: 35%;
+    border-left: 1px solid #eee;
+    height: 38px;
+    z-index: 100;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.main_yanzheng_time a {
+    color: #6888D9;
+    margin: 0 auto;
+}
+
+.next {
+    width: 100%;
+    height: 44px;
+    margin-top: 35px;
+}
+
+.next_btn {
+    width: 90%;
+    height: 44px;
+    background: #ffa200;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    -webkit-appearance: none;
+    margin-left: 5%;
+    color: white;
+    font-size: 18px;
+}
+
+.goumaijine_text_label {
+    font-size: 1.6rem;
+    height: 40px;
+    line-height: 40px;
+    color: #181818;
+}
+
+.goumaijine_text_input {
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.goumaijine_text_input_label {
+    display: flex;
+}
+
+.font-label {
+       font-size: 2.1rem;
+    color: #333333;
+    float: left;
+}
+
+.text-input {
+    border: none;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    font: 16px/2 Helvetica;
+    outline: 0;
+    border-radius: 0;
+    width: 99%;
+    height: 100%;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+}
+
+.text-input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+.bottom_up_text,
+.bottom_down_text {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+}
+
+.bottom_up_text_left,
+.bottom_down_text_left {
+    display: inline-block;
+}
+
+.bottom_up_text_right,
+.bottom_down_text_right {
+    display: inline-block;
+    float: right;
+}
+
+.bottom_up_text_left {
+    color: #999999;
+    font-size: 1.4rem;
+}
+
+.bottom_up_text_right {
+    color: #ffa200;
+    font-size: 1.6rem;
+}
+
+.bottom_down_text_left,
+.bottom_down_text_right {
+    color: #cccccc;
+    position: relative;
+    bottom: 6px;
+}
+
+.bottom_down_text_left {
+    font-size: 1.2rem;
+}
+
+.bottom_down_text_right {
+    text-decoration: line-through;
+    font-size: 1.4rem;
+}
+
+body {
+    background-color: #efeff3;
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    border: 1px solid #dddddd;
+    width: 90%;
+    height: 156px;
+    margin-top: 23px;
+    margin-left: 5%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.goumaijine_text {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    height: 84px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 5%;
+}
+
+.goumaijine_text_bottom {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    height: 84px;
+    margin: 0 5%;
+}
+
+.dialog {
+    width: 80%;
+    height: 155px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: 0 auto;
+    z-index: 10000;
+    -webkit-transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.dialog_footer,
+.dialog_footer_onebutton {
+    overflow: hidden;
+    border-top: 1px solid #999999;
+}
+
+.dialog_footer a,
+.dialog_footer_onebutton a {
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    float: left;
+    height: 43px;
+    text-align: center;
+    font-size: 1.75rem;
+    box-sizing: border-box;
+    line-height: 43px;
+}
+
+.dialog_footer a:last-child {
+    color: #333333;
+    width: 100%;
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+}
+
+.bgdiv {
+    z-index: 1000000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: rgba(102, 102, 102, .6);
+}
+.dialog_content_span {
+    color: #ffa200;
+    font-size: 1.4rem;
+}
+.scheme_one {
+    height: 110px;
+    font-size: 1.4rem;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper img {
+    width: 100%;
+    height: auto;
+    background-size: 320px auto;
+}
+
+.bottombtn {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #ffa200;
+}
+
+.rightnowrengou {
+    width: 90%;
+    height: 43px;
+    line-height: 43px;
+    display: block;
+    line-height: 43px;
+    margin: 0 auto;
+    background-color: #ffa200;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-left: 5%;
+    top: 10px;
+}
+
+.rengouwrapper {
+    width: 95.8%;
+    margin: 0 auto;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffeac1;
+    position: relative;
+}
+
+.dialog_content {
+    padding: 15px 5% 5px 5%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #333333;
+    height: 100px;
+    line-height: 2.0;
+}
+.text-box {
+	float: left;
+}
